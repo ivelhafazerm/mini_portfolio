@@ -7,11 +7,12 @@
   pink : hsl(356,66%,75%)
   teal : hsl(174,63%,62%) 
   hsl(181,52%,36%)
+  green : hsl(120,66%,60%)
 */
 
-  --hue: 258;
-  --sat: 24%;
-  --lig: 47%;
+  --hue: 250;
+  --sat: 66%;
+  --lig: 75%;
 
   --first-color: hsl(var(--hue), var(--lig), var(--lig));
   --first-color-alt: hsl(var(--hue), var(--lig), 43%);
@@ -337,6 +338,7 @@ body.dark-theme {
   -moz-border-radius: 1rem;
   -ms-border-radius: 1rem;
   -o-border-radius: 1rem;
+  border: 3px solid var(--first-color);
 }
 
 .projects__card img {
@@ -467,6 +469,7 @@ body.dark-theme {
 }
 
 /* Responsive */
+
 /* Small */
 @media screen and (max-width: 320px) {
   .container {

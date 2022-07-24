@@ -5,7 +5,7 @@ const tabs = document.querySelectorAll("[data-target]"),
 tabs.forEach((tab) => {
   tab.addEventListener("click", () => {
     const target = document.querySelector(tab.dataset.target);
-
+    console.log(target);
     tabContents.forEach((tc) => {
       //tc ==tabcontent
       tc.classList.remove("filters__active");
@@ -19,7 +19,7 @@ tabs.forEach((tab) => {
   });
 });
 
-// Dark Theme
+// =========================== Dark Theme ===================================== //
 const themeButton = document.getElementById("theme-button");
 const darkTheme = "dark-theme";
 const iconTheme = "ri-sun-line";
