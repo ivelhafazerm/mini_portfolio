@@ -1,5 +1,8 @@
 @import url("https://fonts.googleapis.com/css2?family=Gochi+Hand&display=swap");
-
+@font-face {
+  font-family: SpaceGrotesk;
+  src: url(../font/SpaceGrotesk-Regular.ttf);
+}
 :root {
   /* 
   blue : hsl(207,90%,61%)
@@ -23,7 +26,7 @@
   --body-color: hsl(var(--hue), 100%, 99%);
   --container-color: #fff;
 
-  --body-font: "Gochi Hand", cursive;
+  --body-font: SpaceGrotesk; /*"Gochi Hand", cursive; Default*/
   --h2-font: 1.25rem;
   --h3-font: 1rem;
   --normal-font: 0.938rem;
